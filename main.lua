@@ -1,7 +1,3 @@
-function NEWFUNCTION()
-
-end
-
 function Awake()
     networkedSpinTimer = CreateTickTimerSeconds(1)
     Sword = c.GetModelTransform("Weapon")
