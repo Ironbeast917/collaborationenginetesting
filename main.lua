@@ -1,1 +1,1 @@
-ModelSpawner.SpawnModel("https://raw.githubusercontent.com/Ironbeast917/collaborationenginetesting/refs/heads/main/KNN.glb", NewVector3(0, 0, 0), NewQuaternion(0, 0, 0, 0), nil)
+ModelSpawner.SpawnModel("https://raw.githubusercontent.com/Ironbeast917/collaborationenginetesting/refs/heads/main/Map.glb", NewVector3(0, 0, 0), NewQuaternion(0, 0, 0, 0), nil)
