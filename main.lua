@@ -1,1 +1,1 @@
-DebugLog("HELLO WORLD!!!")
+DebugLog(NewVector3(10, 12, 5))
