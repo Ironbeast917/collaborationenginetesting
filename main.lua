@@ -1,1 +1,1 @@
-DebugLog(NewVector2(200, 20))
+DebugLog(NewVector2(10, 1))
