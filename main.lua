@@ -4,7 +4,7 @@ function Start()
     ModelSpawner.SpawnModel("https://raw.githubusercontent.com/Ironbeast917/collaborationenginetesting/refs/heads/main/Map.glb", true, NewVector3(0, 0, 0), NewQuaternion(0, 0, 0, 0), nil)
 
     entity = EntitySpawner.SpawnEntity(NewVector3(10, 0, 10), NewQuaternion(0, 0, 0, 0))
-    ModelSpawner.SpawnModel("https://raw.githubusercontent.com/Ironbeast917/collaborationenginetesting/refs/heads/main/KNN.glb", true, NewVector3(0, 0, 0), NewQuaternion(0, 0, 0, 0), entity.GameObject.Transform)
+    ModelSpawner.SpawnModel("https://raw.githubusercontent.com/Ironbeast917/collaborationenginetesting/refs/heads/main/KNN.glb", false, entity.GameObject.Transform)
 end
 
 function FixedUpdate()
