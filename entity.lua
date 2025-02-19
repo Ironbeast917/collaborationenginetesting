@@ -1,4 +1,4 @@
 function FixedUpdate()
-    DebugLog(Entity.GameObject)
+    DebugLog(Entity.GameObject.Transform)
     Entity.GameObject.Transform.Position = Entity.GameObject.Transform.Position + NewVector3(0, 0, 1) * Time.deltaTime
 end
